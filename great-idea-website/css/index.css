@@ -66,14 +66,14 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 900px;
+	width: 877px;
 	margin: auto;
 	border: 1px solid red;
 }
 
 header nav {
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 header nav a {
@@ -83,11 +83,20 @@ header nav a {
 }
 
 header img.logo {
-	margin-left: 140px;
+	margin-left: 125px;
 }
 
 .OnDemand {
+	margin-top: 70px;
 	text-align: center;
+}
+
+button {
+	border: solid 1px black;
+	padding: 5px 50px 5px 50px;
+	/* padding-right: 20px;
+	padding-left: 20px; */
+	font-size: 15px;
 }
 
 .OD-text {
@@ -100,6 +109,50 @@ header img.logo {
 	text-align: center;
 }
 
-/* .OnDemand img {
+ .OnDemand img {
 	margin-left: 100px;
-} */
+}
+
+.mainContent img {
+	text-align: center;
+}
+.top-section{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.top-section .text {
+	display: inline-block;
+	width: 435px;
+}
+
+.bottom-section {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.bottom-section .text {
+	display: inline-block;
+	width: 289px;
+}
+
+.text p {
+	line-height: 18px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.street {
+	margin-bottom: 20px;
+}
+
+.phone {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
