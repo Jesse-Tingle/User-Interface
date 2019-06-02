@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+header img.logo {
+	margin-left: 140px;
+}
+
+.OnDemand {
+	text-align: center;
+}
+
+.OD-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.OD-text h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+/* .OnDemand img {
+	margin-left: 100px;
+} */
