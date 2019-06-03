@@ -67,8 +67,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 877px;
-	margin: auto;
-	border: 1px solid red;
+	margin: auto;	
 }
 
 header nav {
@@ -83,19 +82,23 @@ header nav a {
 }
 
 header img.logo {
-	margin-left: 125px;
+	margin: -11px;
+    padding-left: 133px;
 }
 
 .OnDemand {
-	margin-top: 70px;
+	margin-top: 120px;
+	margin-bottom: 120px;
 	text-align: center;
+}
+.headerimg {
+	margin: -45px 6px;
+    padding-left: 32px;
 }
 
 button {
 	border: solid 1px black;
 	padding: 5px 50px 5px 50px;
-	/* padding-right: 20px;
-	padding-left: 20px; */
 	font-size: 15px;
 }
 
