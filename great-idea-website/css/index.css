@@ -70,6 +70,14 @@ h1, h2, h3, h4, h5 {
 	margin: auto;	
 }
 
+header {
+	background-color: #89d6ea;
+    padding-bottom: 30px;
+	padding-right: 20px;
+	position: fixed;
+    top: 0px;
+}
+
 header nav {
 	display: inline-block;
 	margin-top: 30px;
@@ -87,7 +95,7 @@ header img.logo {
 }
 
 .OnDemand {
-	margin-top: 120px;
+	margin-top: 170px;
 	margin-bottom: 120px;
 	text-align: center;
 }
