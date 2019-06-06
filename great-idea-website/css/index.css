@@ -67,7 +67,19 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 877px;
-	margin: auto;	
+	margin: 0 auto;	
+}
+
+/*******
+Navigation and Logo Section
+*******/
+
+header {
+	background-color: #89d6ea;
+    padding-bottom: 30px;
+	padding-right: 20px;
+	position: fixed;
+    top: 0px;
 }
 
 header nav {
@@ -86,14 +98,30 @@ header img.logo {
     padding-left: 133px;
 }
 
-.OnDemand {
-	margin-top: 120px;
+/*******
+End Navigation and Logo Section
+*******/
+
+
+
+/*******
+Innovation on Demand Section
+*******/
+
+.on-demand {
+	margin-top: 170px;
 	margin-bottom: 120px;
 	text-align: center;
 }
-.headerimg {
-	margin: -45px 6px;
-    padding-left: 32px;
+
+.od-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.od-text h1 {
+	font-size: 85px;
+	text-align: center;
 }
 
 button {
@@ -102,23 +130,19 @@ button {
 	font-size: 15px;
 }
 
-.OD-text {
-	display: inline-block;
-	text-align: center;
+.od-img {
+	margin: -45px 6px;
+    padding-left: 32px;
 }
 
-.OD-text h1 {
-	font-size: 85px;
-	text-align: center;
-}
+/*******
+End of Innovation on Demand Section
+*******/
 
- .OnDemand img {
-	margin-left: 100px;
-}
 
-.mainContent img {
-	text-align: center;
-}
+/*******
+Main Content Section
+*******/
 .top-section{
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -127,6 +151,14 @@ button {
 .top-section .text {
 	display: inline-block;
 	width: 435px;
+}
+
+.text p {
+	line-height: 18px;
+}
+
+.main-content img {
+	text-align: center;
 }
 
 .bottom-section {
@@ -138,9 +170,15 @@ button {
 	width: 289px;
 }
 
-.text p {
-	line-height: 18px;
-}
+/*******
+End of Main Content Section
+*******/
+
+
+
+/*******
+Contact Section
+*******/
 
 .contact {
 	margin-top: 40px;
@@ -154,8 +192,19 @@ button {
 	margin-bottom: 20px;
 }
 
+/*******
+End of Contact Section
+*******/
+
+/*******
+Footer Section
+*******/
 footer {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 100px;
 }
+
+/*******
+End of Footer Section
+*******/
